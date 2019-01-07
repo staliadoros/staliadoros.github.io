@@ -13,7 +13,7 @@ html, body {
 }
 
 .wrapper {
-  background-color: lightgray;
+  background-color: DimGray;
   
   max-width: 50%;
   display: flex;
