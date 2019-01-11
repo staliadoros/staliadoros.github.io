@@ -62,18 +62,18 @@ p {
 .social-links {
   list-style: none;
   justify-content: center;
-  padding-left: 80px;
+  padding-left: 2px;
   font-size: 18px;
 }
 
 .social-links li {
   display: inline-block;
-  margin-right: 8px;
+  margin-right: 0px;
 }
 
 .social-links a {
   text-decoration: none;
-  padding: 4px;
+  padding: 2px;
 }
 
 .social-links a:hover {
