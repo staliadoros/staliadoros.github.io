@@ -2,32 +2,43 @@ html, body {
   display: flex;
   align-items: center;
   justify-content: center;
+  background-color: whitesmoke;
   height: 100%;
   margin: 0px;
   padding: 0px;
-
   font-family: 'Open Sans', sans-reif;
+}
+
+@keyframes example {
+  from {background-color: lightgray}
+  to {background-color: lightgrey}
+  to {background-color:white}
+}
+
+/* The element to apply the animation to */
+div {
+  background-color: white;
+  animation-name: example;
+  animation-duration: 4s;
 }
 
 .wrapper {
   background-color: white;
-  
   max-width: 100%;
   display: flex;
   flex-direction: row;
-  height: 100%;
-
+  height: 10%;
 }
 
 .name {
   font-family: 'Roboto', sans-serif;
+  color: gray;
   margin-bottom: 2px;
 }
 
 .left, .right {
-  background-color: white;
-  
-  margin: 5px;
+  background-color: turqoise;
+  margin: 10px;
   max-width: 100%;
   flex: 1;
   display: flex;
@@ -44,6 +55,9 @@ html, body {
   border-radius: 50%;
 }
 
+p {
+  animation-fill-mode: forwards
+}
 
 .social-links {
   list-style: none;
@@ -63,10 +77,10 @@ html, body {
 }
 
 .social-links a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+  background-color: rgba(250, 250, 250, 0.555);
 }
 
 .body {
-  background: linear-gradient(blue, pink);
+  background: linear-gradient(black, pink);
 }
 
